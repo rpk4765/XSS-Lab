@@ -1,0 +1,9 @@
+Options -Indexes
+Require local
+
+<FilesMatch "\.(?:cjs|ps1|md|log)$">
+    Require all denied
+</FilesMatch>
+<FilesMatch "^(?:range|target|workbench|footer|verify|hint-task|challenges)\.php$">
+    Require all denied
+</FilesMatch>

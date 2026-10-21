@@ -1,0 +1,2 @@
+# This project uses PHP and JavaScript; no Python packages are needed.
+# No npm packages are required; the verifier uses Node.js built-in modules.

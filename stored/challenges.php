@@ -1,0 +1,7 @@
+<?php
+declare(strict_types=1);
+return [
+    'inbox' => ['title' => 'After hours', 'app' => 'Support inbox', 'type' => 'Stored', 'level' => 'Starter', 'field' => 'Message to support', 'button' => 'Send message', 'goal' => 'Execute alert(1) when the staff inbox opens.', 'defense' => 'Escape each message for HTML when it is displayed. Stored input must be encoded when it is rendered, not only when it is saved.', 'route' => 'support / inbox', 'stored' => true, 'view' => 'Open staff inbox', 'target' => 'stored/inbox.php', 'order' => 5],
+    'directory' => ['title' => 'The visiting card', 'app' => 'Partner directory', 'type' => 'Stored', 'level' => 'Core', 'field' => 'Partner contact note', 'button' => 'Save contact card', 'goal' => 'Execute alert(1) when a visitor opens your contact card.', 'defense' => 'Avoid inline onclick code. Add an event listener and show the saved note with textContent.', 'route' => 'partners / directory', 'stored' => true, 'view' => 'Open visitor view', 'target' => 'stored/directory.php', 'order' => 6],
+    'reviews' => ['title' => 'Second opinion', 'app' => 'Service reviews', 'type' => 'Stored', 'level' => 'Advanced', 'field' => 'Service review', 'button' => 'Post review', 'goal' => 'Execute alert(1) when a customer loads the reviews.', 'defense' => 'Show reviews as plain text with textContent. If rich text is needed, sanitize it with a strict allow-list before display.', 'route' => 'feedback / reviews', 'stored' => true, 'view' => 'Open customer view', 'target' => 'stored/reviews.php', 'order' => 9],
+];
