@@ -78,6 +78,11 @@ This application is intentionally vulnerable for training. Run it only on your o
 **Blue_rpk** (Rohit Prajapat)  
 GitHub: [rpk4765](https://github.com/rpk4765)
 
+## 💡 Project Idea & Development
+
+ **Project idea and requirements:** Mine  
+ **Code development:** Created with AI assistance
+
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
