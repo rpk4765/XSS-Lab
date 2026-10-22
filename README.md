@@ -75,7 +75,7 @@ This application is intentionally vulnerable for training. Run it only on your o
 
 ## 👨‍💻 Author
 
-**Blue_rpk** (Rohit Prajapat)  
+**Blue_rpk**
 GitHub: [rpk4765](https://github.com/rpk4765)
 
 ## 💡 Project Idea & Development
